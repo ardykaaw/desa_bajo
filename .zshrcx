@@ -1,0 +1,13 @@
+# Tambahkan Composer vendor bin ke PATH
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+
+# Tambahkan phpenv ke PATH
+export PATH="$HOME/.phpenv/bin:$PATH"
+
+# Inisialisasi phpenv
+eval "$(phpenv init --path)"
+eval "$(phpenv init -)"
+export PATH="$PATH:$HOME/.composer/vendor/bin
+export PATH="$HOME/.phpenv/bin:$PATH"
+eval "$(phpenv init --path)"
+eval "$(phpenv init -)"
